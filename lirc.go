@@ -4,8 +4,8 @@ import (
 	"log"
 	"time"
 
+	"github.com/chrisxf/lirc"
 	"github.com/micmonay/keybd_event"
-	"github.com/sethorax/lirc"
 )
 
 var kb keybd_event.KeyBonding
