@@ -8,7 +8,7 @@ func main() {
 	parseFlags()
 	setupLog()
 
-	log.Print("Starting Kodi Chrome-TV Pilot")
+	log.Print("Starting Kodi Chrome Pilot")
 
 	checkFlags()
 	prepare()
