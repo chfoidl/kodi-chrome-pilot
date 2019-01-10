@@ -27,7 +27,7 @@ func startBrowser() (err error) {
 	args = append(args, "--kiosk")
 	args = append(args, BrowserUrl)
 
-	log.Println(args)
+	log.Println("Starting chrome with args: ", args)
 
 	ProcChrome = exec.Command(ChromePath, args...)
 
